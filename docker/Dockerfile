@@ -1,4 +1,4 @@
-FROM  cyberdojofoundation/gplusplus:7.3.0
+FROM  cyberdojofoundation/gplusplus
 LABEL maintainer=estermann.michel@gmail.com
 
 COPY gmock-1.7.0.zip /usr/src
