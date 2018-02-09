@@ -1,6 +1,8 @@
 FROM  cyberdojofoundation/gplusplus:7.3.0
 LABEL maintainer=estermann.michel@gmail.com
 
+COPY gmock-1.7.0.zip /usr/src
+
 ADD install.sh /
 
 RUN /install.sh \
