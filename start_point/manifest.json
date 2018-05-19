@@ -1,4 +1,3 @@
-
 {
   "display_name": "C++ (g++), GoogleMock",
 
@@ -9,6 +8,8 @@
     "makefile",
     "cyber-dojo.sh"
   ],
+
+  "hidden_filenames": [ ".*\\.gcov" ],
 
   "image_name": "cyberdojofoundation/gpp_googlemock",
 

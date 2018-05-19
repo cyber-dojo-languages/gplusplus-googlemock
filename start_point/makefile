@@ -1,4 +1,8 @@
-CXXFLAGS += -I. -std=c++17 -Wpedantic -Wall -Wextra -Werror
+CXXFLAGS += -I.
+CXXFLAGS += -std=c++17
+CXXFLAGS += -Wpedantic -Wall -Wextra -Werror
+CXXFLAGS += -fprofile-arcs -ftest-coverage
+
 GTEST_LIBS = -lgtest -lgmock -lgmock_main -pthread
 
 HPP_FILES = $(wildcard *.hpp)
