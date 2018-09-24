@@ -5,6 +5,10 @@
     "hiker.tests.cpp",
     "hiker.cpp",
     "hiker.hpp",
+    "logger.hpp",
+    "disk_logger.hpp",
+    "disk_logger.cpp",
+    "mock_logger.hpp",
     "makefile",
     "cyber-dojo.sh"
   ],
