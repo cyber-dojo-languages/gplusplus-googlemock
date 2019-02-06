@@ -1,6 +1,6 @@
 CXXFLAGS += -I.
 CXXFLAGS += -std=c++17
-CXXFLAGS += -Wpedantic -Wall -Wextra -Werror
+CXXFLAGS += -Wpedantic -Wall -Wextra
 CXXFLAGS += -fprofile-arcs -ftest-coverage
 
 GTEST_LIBS = -lgtest -lgmock -lgmock_main -pthread
