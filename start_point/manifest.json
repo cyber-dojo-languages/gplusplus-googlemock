@@ -17,5 +17,5 @@
 
   "image_name": "cyberdojofoundation/gpp_googlemock",
 
-  "filename_extension": [ ".cpp", ".hpp" ]
+  "filename_extension": [ ".cpp", ".hpp", ".c", ".h" ]
 }
