@@ -1,0 +1,7 @@
+FROM cyberdojofoundation/gplusplus
+LABEL maintainer=estermann.michel@gmail.com
+
+COPY googletest-release-1.10.0.zip /usr/src
+COPY install.sh .
+RUN ./install.sh
+COPY red_amber_green.rb /usr/local/bin
