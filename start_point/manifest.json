@@ -1,4 +1,6 @@
 {
+  "image_name": "cyberdojofoundation/gpp_googlemock",
+
   "display_name": "C++ (g++), GoogleMock",
 
   "visible_filenames": [
@@ -13,9 +15,9 @@
     "cyber-dojo.sh"
   ],
 
-  "hidden_filenames": [ ".*\\.gcov" ],
+  "max_seconds": 12,
 
-  "image_name": "cyberdojofoundation/gpp_googlemock",
+  "hidden_filenames": [ ".*\\.gcov", ".*\\.gcno" ],
 
   "filename_extension": [ ".cpp", ".hpp", ".c", ".h" ]
 }

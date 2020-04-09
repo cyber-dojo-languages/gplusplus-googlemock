@@ -2,7 +2,6 @@
 
 readonly GTEST_VERSION=1.10.0
 
-apt-get update
 apt-get install --yes cmake unzip
 
 cd /usr/src
