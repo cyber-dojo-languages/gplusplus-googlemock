@@ -15,6 +15,5 @@
   ],
   "filename_extension": [ ".cpp", ".hpp", ".c", ".h" ],
   "max_seconds": 12,
-  "tab_size": 4,
-  "hidden_filenames": [ ".*\\.gcov", ".*\\.gcno" ]
+  "tab_size": 4
 }
