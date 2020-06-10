@@ -11,8 +11,8 @@ function cyber_dojo_enter()
 }
 function cyber_dojo_exit()
 {
-  # 2. Remove text files we don't want returned.
-  cyber_dojo_delete_dirs .pytest_cache # ...
+  : # 2. Remove text files we don't want returned.
+  #cyber_dojo_delete_dirs ...
   #cyber_dojo_delete_files ...
 }
 cyber_dojo_enter
