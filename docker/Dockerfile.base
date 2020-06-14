@@ -1,4 +1,4 @@
-FROM cyberdojofoundation/gplusplus
+FROM cyberdojofoundation/gplusplus:4c0dab3c
 LABEL maintainer=estermann.michel@gmail.com
 
 COPY googletest-release-1.10.0.zip /usr/src
