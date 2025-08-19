@@ -1,12 +1,12 @@
 #!/bin/bash -Eeu
 
-readonly GTEST_VERSION=1.10.0
+readonly GTEST_VERSION=1.17.0
 
 apt-get install --yes cmake unzip
 
 cd /usr/src
 unzip googletest-release-${GTEST_VERSION}.zip
-cd /usr/src/googletest-release-${GTEST_VERSION}
+cd /usr/src/googletest-${GTEST_VERSION}
 cmake .
 make
 
