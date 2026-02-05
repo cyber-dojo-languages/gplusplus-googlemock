@@ -1,4 +1,4 @@
-FROM ghcr.io/cyber-dojo-languages/gplusplus:8be9183
+FROM ghcr.io/cyber-dojo-languages/gplusplus:4a36012
 LABEL maintainer=estermann.michel@gmail.com
 
 COPY googletest-release-1.17.0.zip /usr/src
