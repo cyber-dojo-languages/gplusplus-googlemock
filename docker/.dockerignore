@@ -1,4 +1,4 @@
 *
 !googletest-release-1.17.0.zip
 !install.sh
-!red_amber_green.rb
+!build_pch.sh

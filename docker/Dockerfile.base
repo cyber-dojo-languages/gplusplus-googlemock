@@ -4,3 +4,9 @@ LABEL maintainer=estermann.michel@gmail.com
 COPY googletest-release-1.17.0.zip /usr/src
 COPY install.sh .
 RUN ./install.sh && rm ./install.sh
+
+# A kata's test run reads a precompiled <gmock/gmock.h> instead of parsing it
+# again on every [test] press. The script explains why its flags have to match
+# the start-point makefile's, and fails the build if gcc will not use the result.
+COPY build_pch.sh .
+RUN bash ./build_pch.sh && rm ./build_pch.sh
